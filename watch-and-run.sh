@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function peek-config {
-  find /etc/nginx/conf.d/ -type f -printf "%T@ %p;"
+  find /etc/nginx/ -type f -printf "%T@ %p;"
 }
 
 function watch-config {
